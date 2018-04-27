@@ -1,6 +1,8 @@
 function Person() {
-  this.name = 'XX'
+  
 }
+
+// Person.prototype
 var person = new Person()
 
 /**
@@ -11,16 +13,19 @@ var person = new Person()
  * 
  */
 
-console.log(Person) // 构造函数
-console.log(person) // 由Person函数构建出来的对象
+ console.log(person.__proto__)
+// console.log('构造函数')
+// console.log(Person) // 构造函数
+// console.log(person) // 由Person函数构建出来的对象
 
-console.log(person.__proto__)  // {constructor: ƒ}
-console.log(Person.prototype)  // {constructor: ƒ}
-console.log(person.__proto__ === Person.prototype)  // true
+// console.log(Object.keys(person))
+// console.log(person.__proto__)  // {constructor: ƒ}
+// console.log(Person.prototype)  // {constructor: ƒ}
+// console.log(person.__proto__ === Person.prototype)  // true
 
-console.log(Person.prototype.constructor)  // Person
-console.log(Person.prototype.constructor === Person)  // Person
-console.log(person.__proto__.constructor)  // Person
+// console.log(Person.prototype.constructor)  // Person
+// console.log(Person.prototype.constructor === Person)  // Person
+// console.log(person.__proto__.constructor)  // Person
 
 // prototype属性
 
