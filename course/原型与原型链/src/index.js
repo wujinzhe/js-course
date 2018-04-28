@@ -2,7 +2,8 @@ function Person() {
   
 }
 
-// Person.prototype
+Person.prototype.name = '123'
+
 var person = new Person()
 
 /**
@@ -13,7 +14,9 @@ var person = new Person()
  * 
  */
 
- console.log(person.__proto__)
+// console.log(person.name)
+console.log(Object.prototype.__proto__)
+console.log(person.__proto__.__proto__)
 // console.log('构造函数')
 // console.log(Person) // 构造函数
 // console.log(person) // 由Person函数构建出来的对象
