@@ -4,7 +4,7 @@
 
 ## IdentifierStart & IdentifierPart
 
-变量名在ECMAScript中的定义为IdentifierName，后面我们就用IdentifierName来表示变量名，简单的来说IdentifierName有两个部分，一个是IdentifierStart，另一个是IdentifierPart，IdentifierStart是一定有的，IdentifierPart则不一定有，我们简单的来举一个例子
+变量名在ECMAScript中的定义为IdentifierName，后面我们就用IdentifierName来表示变量名，简单的来说IdentifierName有两个部分，一个是IdentifierStart，另一个是IdentifierPart，IdentifierStart部分是一定存在的，IdentifierPart则不一定，我们简单的来举一个例子
 
 ```JS
   // 其中 a为IdentifierStart 但是IdentifierPart却没有
@@ -21,5 +21,9 @@
 
 ### IdentifierStart
 
-变量名的起始部分
+变量名的起始部分在规范中称为IdentifierStart，而IdentifierStart可能的取值为4种，带id_start属性的Unicode字符，$，_，和Unicode的转义字符，下面分别来讲下这4种情况：
+
+1. 带id_start属性的Unicode字符
+
+    在Unicode的字符中，有的字符会带有id_start属性，意思就是id_start是某些个Unicode所本身拥有的，[有关Unicode属性的介绍](http://unicode.org/reports/tr31/)，
 
