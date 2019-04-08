@@ -7,7 +7,7 @@
 * 可执行代码
 
   * 从编译到执行
-  * [不为人知的变量名](https://github.com/wujinzhe/js-course/blob/master/course/不为人知的变量名.md)
+  * [不为人知的变量名](https://github.com/wujinzhe/js-course/blob/master/course/可执行代码/不为人知的变量名.md)
 
 * 上下文与作用域
 
