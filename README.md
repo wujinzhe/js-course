@@ -7,6 +7,7 @@
   1. 对象属性
   2. [原型与原型链](https://github.com/wujinzhe/js-course/blob/master/course/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE.md)
   3. 继承
+  4. 类
 
 * 可执行代码
 
@@ -17,12 +18,14 @@
 
   1. [变量的声明与提升](https://github.com/wujinzhe/js-course/blob/master/course/上下文与作用域/1.变量的声明与提升.md)
   2. 词法环境与作用域
+  3. 函数
   3. 可执行上下文
   4. this关键字
+  
 
 * 模块
 
-  * AMD与CMD
+  * [AMD与CMD](https://github.com/wujinzhe/js-course/blob/master/course/模块/AMD和CMD.md)
   * ES6 module 与commonJs
   * 未来的动态加载
 
